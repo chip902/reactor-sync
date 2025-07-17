@@ -1,0 +1,87 @@
+{
+  "id": "EXd7736e3ab2e64354b0df630e6e3d4257",
+  "type": "extensions",
+  "attributes": {
+    "created_at": "2025-07-02T14:08:02.130Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "branch-mobile-growth",
+    "published": false,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-07-02T14:08:02.130Z",
+    "created_by_email": "Saravanan.Uthirapathi@amtrak.com",
+    "created_by_display_name": "Saravanan Uthirapathi",
+    "updated_by_email": "Saravanan.Uthirapathi@amtrak.com",
+    "updated_by_display_name": "Saravanan Uthirapathi",
+    "delegate_descriptor_id": "branch-mobile-growth::extensionConfiguration::config",
+    "display_name": "Branch Experiences and Measurement",
+    "review_status": "unsubmitted",
+    "version": "1.1.0",
+    "settings": "{\"branchKey\":\"key_test_mm9QmC6jBehHaea7OXM3UihprrcLMgGm\",\"subscriptionStatus\":false}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257/origin"
+      },
+      "data": {
+        "id": "EXd7736e3ab2e64354b0df630e6e3d4257",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EPad82b7d1d70e4654a88646f5ed9844f4",
+        "type": "extension_packages"
+      }
+    },
+    "extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257/extension_package"
+      },
+      "data": {
+        "id": "EPad82b7d1d70e4654a88646f5ed9844f4",
+        "type": "extension_packages"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257",
+    "self": "https://reactor.adobe.io/extensions/EXd7736e3ab2e64354b0df630e6e3d4257",
+    "extension_package": "https://reactor.adobe.io/extension_packages/EPad82b7d1d70e4654a88646f5ed9844f4",
+    "latest_extension_package": "https://reactor.adobe.io/extension_packages/EPad82b7d1d70e4654a88646f5ed9844f4"
+  },
+  "meta": {
+    "latest_revision_number": 1
+  }
+}

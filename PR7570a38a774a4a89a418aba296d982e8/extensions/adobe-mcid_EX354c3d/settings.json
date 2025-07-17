@@ -1,0 +1,14 @@
+{
+  "orgId": "2909B74F57B49A137F000101@AdobeOrg",
+  "variables": [
+    {
+      "name": "trackingServerSecure",
+      "value": "smetrics.amtrak.com"
+    },
+    {
+      "name": "trackingServer",
+      "value": "smetrics.amtrak.com"
+    }
+  ],
+  "doesOptInApply": false
+}

@@ -1,0 +1,69 @@
+{
+  "id": "RLf6b9b5505df24c59801744c8cdcf0504",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2019-05-16T18:38:19.937Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AA - Ecommerce - Confirmation (Opt In)",
+    "published": false,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-05-30T02:24:42.406Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504/origin"
+      },
+      "data": {
+        "id": "RLf6b9b5505df24c59801744c8cdcf0504",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504",
+    "self": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504",
+    "rule_components": "https://reactor.adobe.io/rules/RLf6b9b5505df24c59801744c8cdcf0504/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 125
+  }
+}

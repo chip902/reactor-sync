@@ -1,0 +1,3 @@
+{
+  "source": "var cart = digitalData.eCommerce.item || [];\nvar total = 0;\nfor (var i = 0; i < cart.length; i++) {\n    total += Number(cart[i].productInfo.price);\n}\nreturn total;"
+}

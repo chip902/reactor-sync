@@ -1,0 +1,90 @@
+{
+  "id": "EN3bf5007cb1fc490faec71d1008636020",
+  "type": "environments",
+  "attributes": {
+    "archive": false,
+    "created_at": "2019-05-15T13:41:34.155Z",
+    "library_path": "",
+    "library_name": "launch-EN3bf5007cb1fc490faec71d1008636020-development.min.js",
+    "library_entry_points": [
+      {
+        "library_name": "launch-EN3bf5007cb1fc490faec71d1008636020-development.min.js",
+        "minified": true,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-EN3bf5007cb1fc490faec71d1008636020-development.min.js",
+          "launch-EN3bf5007cb1fc490faec71d1008636020-development.min.js"
+        ],
+        "license_path": "launch-EN3bf5007cb1fc490faec71d1008636020-development.js"
+      },
+      {
+        "library_name": "launch-EN3bf5007cb1fc490faec71d1008636020-development.js",
+        "minified": false,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-EN3bf5007cb1fc490faec71d1008636020-development.js",
+          "launch-EN3bf5007cb1fc490faec71d1008636020-development.js"
+        ]
+      }
+    ],
+    "name": "Test Environment",
+    "path": "https://assets.adobedtm.com",
+    "stage": "development",
+    "updated_at": "2025-07-02T19:33:13.625Z",
+    "status": "succeeded",
+    "token": "a13c7a927b53",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "analytics@blastam.com",
+    "updated_by_display_name": "Blast Analytics"
+  },
+  "relationships": {
+    "library": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN3bf5007cb1fc490faec71d1008636020/library"
+      },
+      "data": {
+        "id": "LB51ef4a0fd86b4078b7288035f3f6e6ee",
+        "type": "libraries"
+      }
+    },
+    "builds": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN3bf5007cb1fc490faec71d1008636020/builds"
+      }
+    },
+    "host": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN3bf5007cb1fc490faec71d1008636020/host",
+        "self": "https://reactor.adobe.io/environments/EN3bf5007cb1fc490faec71d1008636020/relationships/host"
+      },
+      "data": {
+        "id": "HT266cbe673d354cffb71849b6bd9cd02e",
+        "type": "hosts"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN3bf5007cb1fc490faec71d1008636020/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "self": "https://reactor.adobe.io/environments/EN3bf5007cb1fc490faec71d1008636020"
+  },
+  "meta": {
+    "archive_encrypted": false,
+    "script_sources": [
+      {
+        "hosting_region": "Standard",
+        "minified": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-EN3bf5007cb1fc490faec71d1008636020-development.min.js",
+        "license_path": "https://assets.adobedtm.com/launch-EN3bf5007cb1fc490faec71d1008636020-development.js",
+        "legacy_minified": "https://assets.adobedtm.com/launch-EN3bf5007cb1fc490faec71d1008636020-development.min.js",
+        "debug": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-EN3bf5007cb1fc490faec71d1008636020-development.js"
+      }
+    ]
+  }
+}

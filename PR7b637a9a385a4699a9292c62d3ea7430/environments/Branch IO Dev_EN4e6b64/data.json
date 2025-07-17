@@ -1,0 +1,84 @@
+{
+  "id": "EN4e6b64941c324c9b9c948ecd551c07e1",
+  "type": "environments",
+  "attributes": {
+    "archive": false,
+    "created_at": "2025-05-07T17:11:20.658Z",
+    "library_path": "da9e17b55e5c/828a16752694",
+    "library_name": "launch-b40215c67917-development.min.js",
+    "library_entry_points": [
+      {
+        "library_name": "launch-b40215c67917-development.min.js",
+        "minified": true,
+        "references": [
+          "da9e17b55e5c/828a16752694/launch-b40215c67917-development.min.js"
+        ],
+        "license_path": "da9e17b55e5c/828a16752694/launch-b40215c67917-development.js"
+      },
+      {
+        "library_name": "launch-b40215c67917-development.js",
+        "minified": false,
+        "references": [
+          "da9e17b55e5c/828a16752694/launch-b40215c67917-development.js"
+        ]
+      }
+    ],
+    "name": "Branch IO Dev",
+    "path": "https://assets.adobedtm.com",
+    "stage": "development",
+    "updated_at": "2025-05-30T16:23:24.389Z",
+    "status": "succeeded",
+    "token": "b40215c67917",
+    "created_by_email": "Saravanan.Uthirapathi@amtrak.com",
+    "created_by_display_name": "Saravanan Uthirapathi",
+    "updated_by_email": "Saravanan.Uthirapathi@amtrak.com",
+    "updated_by_display_name": "Saravanan Uthirapathi"
+  },
+  "relationships": {
+    "library": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN4e6b64941c324c9b9c948ecd551c07e1/library"
+      },
+      "data": null
+    },
+    "builds": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN4e6b64941c324c9b9c948ecd551c07e1/builds"
+      }
+    },
+    "host": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN4e6b64941c324c9b9c948ecd551c07e1/host",
+        "self": "https://reactor.adobe.io/environments/EN4e6b64941c324c9b9c948ecd551c07e1/relationships/host"
+      },
+      "data": {
+        "id": "HT062d70c10b2a41fabaef41bb29f479ed",
+        "type": "hosts"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN4e6b64941c324c9b9c948ecd551c07e1/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "self": "https://reactor.adobe.io/environments/EN4e6b64941c324c9b9c948ecd551c07e1"
+  },
+  "meta": {
+    "archive_encrypted": false,
+    "script_sources": [
+      {
+        "hosting_region": "Standard",
+        "minified": "https://assets.adobedtm.com/da9e17b55e5c/828a16752694/launch-b40215c67917-development.min.js",
+        "license_path": "https://assets.adobedtm.com/da9e17b55e5c/828a16752694/launch-b40215c67917-development.js",
+        "debug": "https://assets.adobedtm.com/da9e17b55e5c/828a16752694/launch-b40215c67917-development.js"
+      }
+    ]
+  }
+}

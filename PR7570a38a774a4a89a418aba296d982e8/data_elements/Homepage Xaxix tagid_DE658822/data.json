@@ -1,0 +1,97 @@
+{
+  "id": "DE658822b177cd4f5e9128ab63a9b7678d",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2019-05-16T18:44:30.805Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "Homepage Xaxix tagid",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2019-05-16T18:44:30.805Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "N/A",
+    "updated_by_display_name": "N/A",
+    "clean_text": false,
+    "default_value": "No Match",
+    "delegate_descriptor_id": "core::dataElements::custom-code",
+    "force_lower_case": false,
+    "review_status": "unsubmitted",
+    "storage_duration": null,
+    "settings": "{\"source\":\"if(location.host == 'm.amtrak.com'){\\n  return 'V2_603942';\\n}else{\\n  return 'V2_603935';\\n}\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/origin"
+      },
+      "data": {
+        "id": "DE658822b177cd4f5e9128ab63a9b7678d",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/extension"
+      },
+      "data": {
+        "id": "EX23ea53ccc34e4aa3b1cb9553bff71a3b",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP56a4071b8bdf4810b1e8c195ebd0fe85",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d/updated_with_extension"
+      },
+      "data": {
+        "id": "EXf9f95ec001294ecfb236c9bdccd7537a",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d",
+    "self": "https://reactor.adobe.io/data_elements/DE658822b177cd4f5e9128ab63a9b7678d",
+    "extension": "https://reactor.adobe.io/extensions/EX23ea53ccc34e4aa3b1cb9553bff71a3b"
+  },
+  "meta": {
+    "latest_revision_number": 1
+  }
+}

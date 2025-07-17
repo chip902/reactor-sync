@@ -1,0 +1,69 @@
+{
+  "id": "RL7191fd73f4b94c018e67a75bf29a8d34",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2020-10-21T16:15:03.508Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "DigitalWalletRevenue",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2021-06-26T18:27:07.089Z",
+    "created_by_email": "Caleb.Simmons@amtrak.com",
+    "created_by_display_name": "Caleb Simmons",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34/origin"
+      },
+      "data": {
+        "id": "RL7191fd73f4b94c018e67a75bf29a8d34",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34",
+    "self": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34",
+    "rule_components": "https://reactor.adobe.io/rules/RL7191fd73f4b94c018e67a75bf29a8d34/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 7
+  }
+}

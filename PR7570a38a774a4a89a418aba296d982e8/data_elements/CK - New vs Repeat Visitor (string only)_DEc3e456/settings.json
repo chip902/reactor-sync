@@ -1,0 +1,3 @@
+{
+  "source": "var cookie = _satellite.cookie.get('s_getNewRepeat');\nvar result = cookie.split('-').pop();\nreturn result || \"\";"
+}

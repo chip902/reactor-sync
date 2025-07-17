@@ -1,0 +1,69 @@
+{
+  "id": "RL8f2c7ee141624f78b3f98ecb8617e625",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2023-12-19T22:09:19.117Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AA | corporatetraveleroff",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-03-28T00:39:36.391Z",
+    "created_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "created_by_display_name": "Chethan Goud Kari",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625/origin"
+      },
+      "data": {
+        "id": "RL8f2c7ee141624f78b3f98ecb8617e625",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625",
+    "self": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625",
+    "rule_components": "https://reactor.adobe.io/rules/RL8f2c7ee141624f78b3f98ecb8617e625/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 10
+  }
+}

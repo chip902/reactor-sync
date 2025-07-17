@@ -1,0 +1,3 @@
+{
+  "source": "if (_satellite.getVar('deeplinkName').length > 0){\n  return _satellite.getVar('deeplinkName')+\"|\"+ _satellite.getVar('deeplinkType');\n}else{\n  return _satellite.getVar('deeplinkName');\n}"
+}

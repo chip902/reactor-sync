@@ -1,0 +1,3 @@
+{
+  "source": "if(digitalData.Booking.TravelSearchPassengerGenderCounts[\"F\"]== undefined){\nreturn \"0\"\n}\nelse{\nreturn digitalData.Booking.TravelSearchPassengerGenderCounts[\"F\"];\n}"
+}

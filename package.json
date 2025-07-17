@@ -1,41 +1,41 @@
 {
-  "name": "@tyssejc/reactor-sync",
-  "version": "0.2.0",
-  "description": "Command line tool for syncing data to and from Adobe Launch to a local directory.",
-  "author": {
-    "name": "Charlie Tysse",
-    "url": "https://ctysse.net",
-    "email": "charlie@ctysse.net"
-  },
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:tyssejc/reactor-sync.git"
-  },
-  "keywords": [
-    "launch",
-    "reactor",
-    "sync"
-  ],
-  "bin": {
-    "reactor-sync": "./bin/index.js"
-  },
-  "scripts": {
-    "eslint": "./node_modules/.bin/eslint ."
-  },
-  "dependencies": {
-    "@adobe/reactor-sdk": "^1.2.0",
-    "chalk": "^2.4.2",
-    "mkdirp": "^3.0.1",
-    "node-fetch-cjs": "^3.3.2",
-    "ora": "^3.4.0",
-    "request": "^2.88.0",
-    "request-debug": "^0.2.0",
-    "request-promise-native": "^1.0.7",
-    "sanitize-filename": "^1.6.1",
-    "yargs": "^11.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0"
-  }
+	"name": "@tyssejc/reactor-sync",
+	"version": "0.2.0",
+	"description": "Command line tool for syncing data to and from Adobe Launch to a local directory.",
+	"author": {
+		"name": "Charlie Tysse",
+		"url": "https://ctysse.net",
+		"email": "charlie@ctysse.net"
+	},
+	"license": "Apache-2.0",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:tyssejc/reactor-sync.git"
+	},
+	"keywords": [
+		"launch",
+		"reactor",
+		"sync"
+	],
+	"bin": {
+		"reactor-sync": "./bin/index.js"
+	},
+	"scripts": {
+		"eslint": "./node_modules/.bin/eslint ."
+	},
+	"dependencies": {
+		"@adobe/reactor-sdk": "^1.2.0",
+		"chalk": "^2.4.2",
+		"mkdirp": "^3.0.1",
+		"node-fetch-cjs": "^3.3.2",
+		"ora": "^3.4.0",
+		"request": "^2.88.2",
+		"request-debug": "^0.2.0",
+		"request-promise-native": "^1.0.7",
+		"sanitize-filename": "^1.6.1",
+		"yargs": "^11.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.16.0"
+	}
 }

@@ -15,39 +15,84 @@ const { mkdirp } = require('mkdirp');
 const sanitize = require('sanitize-filename');
 
 function checkCreateDir(localPath) {
-  if (!fs.existsSync(localPath))
+  if (!fs.existsSync(localPath)) {
     mkdirp.sync(localPath);
+  }
+  return true;
 }
 
 function getLocalPath(data, args) {
   const propertyPath = `./${args.propertyId}`;
-  return { 
-    'localPath': `${propertyPath}/${data.type}/${data.id}`,
-    'localDirectory': `${propertyPath}/${data.type}`
+  let localPath = `${propertyPath}/${data.type}/${data.id}`;
+  let localDirectory = `${propertyPath}/${data.type}`;
+
+  // If friendly names option is enabled and name is available
+  if (args.friendlyNames && data.attributes && data.attributes.name) {
+    // Create a business-friendly folder structure
+    const typeSingular = data.type.endsWith('s') ? data.type.slice(0, -1) : data.type;
+    const friendlyName = sanitize(data.attributes.name, { replacement: '_' });
+
+    // Preserve the ID at the end for uniqueness
+    const friendlyPath = `${friendlyName}_${data.id.substring(0, 8)}`;
+
+    // Create a friendly subfolder inside the type directory
+    localPath = `${propertyPath}/${data.type}/${friendlyPath}`;
+    // Main directory doesn't change
+    localDirectory = `${propertyPath}/${data.type}`;
+  }
+
+  return {
+    'localPath': localPath,
+    'localDirectory': localDirectory,
+    'originalId': data.id
   };
 }
 
 function sanitizeName(data) {
   // create a name that links to the original file
   if (data.attributes.name) {
-    return '_' + sanitize(data.attributes.name, {
+    // Remove the leading underscore to make names more friendly
+    return sanitize(data.attributes.name, {
       replacement: '_'
     });
   }
 }
 
-function makeSymLink(localDirectory, sanitizedName, data) {
-  if (fs.lstatSync(`${localDirectory}/${sanitizedName}`)) return;
-  fs.symlinkSync(`${localDirectory}/${data.id}`, `${localDirectory}/${sanitizedName}`, 'dir');
+function makeSymLink(localDirectory, sanitizedName, data, originalId) {
+  // Ensure the directory exists
+  checkCreateDir(localDirectory);
+
+  // Check if the symlink already exists - safely handle with try/catch
+  try {
+    // For backwards compatibility, always create symlinks with and without leading underscore
+    const symlinks = [`${localDirectory}/_${sanitizedName}`, `${localDirectory}/${sanitizedName}`];
+
+    for (const symlinkPath of symlinks) {
+      if (fs.existsSync(symlinkPath)) {
+        // If it exists, check if it's a symlink
+        const stats = fs.lstatSync(symlinkPath);
+        if (stats.isSymbolicLink()) {
+          continue; // Already exists, don't recreate
+        }
+      }
+      // Create the symlink - pointing to either ID-based or friendly directory as needed
+      const targetPath = originalId || data.id;
+      fs.symlinkSync(`${localDirectory}/${targetPath}`, symlinkPath, 'dir');
+    }
+  } catch (error) {
+    // Log the error but don't stop execution
+    console.error(`Warning: Could not create symlink for ${sanitizedName}: ${error.message}`);
+  }
 }
 
-function sanitizeLink(data, localDirectory) {
+function sanitizeLink(data, localDirectory, originalId) {
   const sanitizedName = sanitizeName(data);
-  if (sanitizeName(data))
-    makeSymLink(localDirectory, sanitizedName, data);
+  if (sanitizedName) {
+    makeSymLink(localDirectory, sanitizedName, data, originalId);
+  }
 }
 
-function writeDataJson(localPath, data) { 
+function writeDataJson(localPath, data) {
   fs.writeFileSync(
     `${localPath}/data.json`,
     JSON.stringify(data, null, '  ')
@@ -68,11 +113,22 @@ function getSettings(data, localPath) {
 
 async function toFiles(data, args) {
   const reactor = args.reactor;
-  const { localPath, localDirectory } = getLocalPath(data, args);
+  const { localPath, localDirectory, originalId } = getLocalPath(data, args);
 
+  // Make sure both directories exist
+  checkCreateDir(localDirectory);
   checkCreateDir(localPath);
-  sanitizeLink(data, localDirectory);
+
+  sanitizeLink(data, localDirectory, originalId);
   writeDataJson(localPath, data);
+
+  // If using friendly names, add a reference file that makes it clear which ID this corresponds to
+  if (args.friendlyNames && data.attributes && data.attributes.name) {
+    fs.writeFileSync(
+      `${localPath}/.id-reference`,
+      `Original ID: ${data.id}\nName: ${data.attributes.name}\nType: ${data.type}\n`
+    );
+  }
 
   // if the data has settings, make changes to it
   if (data.attributes.settings) {
@@ -100,7 +156,7 @@ async function toFiles(data, args) {
           )).transforms;
         }
 
-      // property
+        // property
       } else if (data.type === 'property') {
         return;
       } else if (data.type === 'extensions') {
@@ -112,11 +168,17 @@ async function toFiles(data, args) {
             data.relationships.extension_package.data.id
           )).data;
 
-          // transforms
-          transforms = extensionPackage.attributes.configuration.transforms;
+          // transforms - add null checks for modern extensions that may have different structure
+          if (extensionPackage.attributes.configuration) {
+            transforms = extensionPackage.attributes.configuration.transforms || null;
+          } else {
+            // Handle modern extensions without configuration.transforms
+            console.log(`Warning: Extension package ${extensionPackage.id} doesn't have configuration.transforms`);
+            transforms = null;
+          }
         }
 
-      // rule_components
+        // rule_components
       } else if (data.type === 'rule_components') {
         if (
           data.relationships.updated_with_extension_package &&
@@ -133,13 +195,13 @@ async function toFiles(data, args) {
             extensionPackage.attributes.actions
           ) {
             items = extensionPackage.attributes.actions;
-          // if events
+            // if events
           } else if (
             data.attributes.delegate_descriptor_id.indexOf('::events::') !== -1 &&
             extensionPackage.attributes.events
           ) {
             items = extensionPackage.attributes.events;
-          // if conditions
+            // if conditions
           } else if (
             data.attributes.delegate_descriptor_id.indexOf('::conditions::') !== -1 &&
             extensionPackage.attributes.conditions
@@ -173,7 +235,7 @@ async function toFiles(data, args) {
               // if it is the last part
               if (i === il - 1) {
                 value = obj[part];
-              // otherwise drop down
+                // otherwise drop down
               } else {
                 obj = obj[part];
               }
@@ -194,7 +256,7 @@ async function toFiles(data, args) {
 
           // if we didn't get anything back
           if (!value) return;
-          
+
           // function 
           if (transform.type === 'function') {
 
@@ -212,7 +274,7 @@ ${value}
               value
             );
 
-          // file or customCode
+            // file or customCode
           } else if (
             transform.type === 'file' ||
             transform.type === 'customCode'

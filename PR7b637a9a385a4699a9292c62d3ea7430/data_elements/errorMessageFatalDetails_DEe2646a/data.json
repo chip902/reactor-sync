@@ -1,0 +1,97 @@
+{
+  "id": "DEe2646a3880c243ce8bdac1235c60f687",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2022-05-11T20:20:13.596Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "errorMessageFatalDetails",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2022-07-13T14:51:46.115Z",
+    "created_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "created_by_display_name": "Chethan Goud Kari",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari",
+    "clean_text": true,
+    "default_value": null,
+    "delegate_descriptor_id": "core::dataElements::custom-code",
+    "force_lower_case": true,
+    "review_status": "unsubmitted",
+    "storage_duration": null,
+    "settings": "{\"source\":\"var errorMessageFatalDetails = digitalData.ErrDetails.sysError +\\\"|\\\"+ digitalData.ErrDetails.sysMessage +\\\"|\\\"+ digitalData.ErrDetails.businessMessage +\\\"|\\\"+ digitalData.ErrDetails.errorCode +\\\"|\\\"+ digitalData.ErrDetails.channelId +\\\"|\\\"+ digitalData.ErrDetails.subChannelId +\\\"|\\\"+ digitalData.ErrDetails.errorHeader\\nreturn errorMessageFatalDetails;\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/origin"
+      },
+      "data": {
+        "id": "DEe2646a3880c243ce8bdac1235c60f687",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/extension"
+      },
+      "data": {
+        "id": "EX9bda9062f1664c349201c88060e866e8",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EPab6ef5bcd54046888b5cb5b9a98d558b",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687/updated_with_extension"
+      },
+      "data": {
+        "id": "EX58f2367a2cc941f99dbc83f7fc464ef5",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687",
+    "self": "https://reactor.adobe.io/data_elements/DEe2646a3880c243ce8bdac1235c60f687",
+    "extension": "https://reactor.adobe.io/extensions/EX9bda9062f1664c349201c88060e866e8"
+  },
+  "meta": {
+    "latest_revision_number": 2
+  }
+}

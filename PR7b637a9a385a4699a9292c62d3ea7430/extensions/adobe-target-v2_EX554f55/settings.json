@@ -1,0 +1,31 @@
+{
+  "targetSettings": {
+    "enabled": true,
+    "timeout": 3000,
+    "version": "2.2.0",
+    "endpoint": "/rest/v1/delivery",
+    "imsOrgId": "2909B74F57B49A137F000101@AdobeOrg",
+    "clientCode": "amtrakdigital",
+    "secureOnly": false,
+    "serverState": {},
+    "optinEnabled": false,
+    "serverDomain": "amtrakdigital.tt.omtrdc.net",
+    "urlSizeLimit": 2048,
+    "viewsEnabled": true,
+    "optoutEnabled": false,
+    "bodyHiddenStyle": "body {opacity: 0}",
+    "pageLoadEnabled": true,
+    "analyticsLogging": "server_side",
+    "deviceIdLifetime": 63244800000,
+    "bodyHidingEnabled": true,
+    "sessionIdLifetime": 1860000,
+    "visitorApiTimeout": 2000,
+    "authoringScriptUrl": "//cdn.tt.omtrdc.net/cdn/target-vec.js",
+    "overrideMboxEdgeServer": false,
+    "selectorsPollingTimeout": 5000,
+    "defaultContentHiddenStyle": "visibility: hidden;",
+    "defaultContentVisibleStyle": "visibility: visible;",
+    "overrideMboxEdgeServerTimeout": 1860000,
+    "supplementalDataIdParamTimeout": 30
+  }
+}

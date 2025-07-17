@@ -1,0 +1,97 @@
+{
+  "id": "DEc728d970d47e48afbd10b84c5ada1db7",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2019-05-16T18:46:34.618Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "departureStation",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-06-24T03:41:54.467Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "clean_text": true,
+    "default_value": "no-departure-station",
+    "delegate_descriptor_id": "core::dataElements::javascript-variable",
+    "force_lower_case": true,
+    "review_status": "unsubmitted",
+    "storage_duration": null,
+    "settings": "{\"path\":\"digitalData.Booking.TravelSearchDepartureStationCode\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/origin"
+      },
+      "data": {
+        "id": "DEc728d970d47e48afbd10b84c5ada1db7",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/extension"
+      },
+      "data": {
+        "id": "EX23ea53ccc34e4aa3b1cb9553bff71a3b",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EPdea2007e025e4854a6b4ed545e844745",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7/updated_with_extension"
+      },
+      "data": {
+        "id": "EXd5484c19f62b4a81a6639d9acf3507ce",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7",
+    "self": "https://reactor.adobe.io/data_elements/DEc728d970d47e48afbd10b84c5ada1db7",
+    "extension": "https://reactor.adobe.io/extensions/EX23ea53ccc34e4aa3b1cb9553bff71a3b"
+  },
+  "meta": {
+    "latest_revision_number": 2
+  }
+}

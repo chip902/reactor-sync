@@ -1,0 +1,69 @@
+{
+  "id": "RL7ccea9ba64a948dfaa595c5b754a88fa",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2019-09-10T16:39:41.027Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "EcouponApplied",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2020-06-18T09:03:14.811Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "pankaj.bagga@accenture.com",
+    "updated_by_display_name": "Pankaj Bagga",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa/origin"
+      },
+      "data": {
+        "id": "RL7ccea9ba64a948dfaa595c5b754a88fa",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa",
+    "self": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa",
+    "rule_components": "https://reactor.adobe.io/rules/RL7ccea9ba64a948dfaa595c5b754a88fa/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

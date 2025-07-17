@@ -1,0 +1,3 @@
+{
+  "source": "var fromStopTimeId = _satellite.getVar(\"google_from_ticketing_stop_time_id\");\nvar toStopTimeId = _satellite.getVar(\"google_to_ticketing_stop_time_id\");\nvar boardingTime = _satellite.getVar(\"google_boarding_time\");\n\nif (typeof fromStopTimeId !== 'undefined' && typeof toStopTimeId !== 'undefined' && typeof boardingTime !== 'undefined') {\n    _satellite.cookie.set(\"googleDetails\", fromStopTimeId + \":\" + toStopTimeId + \":\" + boardingTime);\n    return fromStopTimeId + \":\" + toStopTimeId + \":\" + boardingTime;\n}\n\n"
+}

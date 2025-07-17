@@ -1,0 +1,69 @@
+{
+  "id": "RLae1b8fe43830493f9b6bb0b0b889494f",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2020-03-19T14:40:07.745Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AA - Ecommerce - Modify Booking Attempt-Payment Page",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-03-28T00:44:13.706Z",
+    "created_by_email": "pankaj.bagga@accenture.com",
+    "created_by_display_name": "Pankaj Bagga",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f/origin"
+      },
+      "data": {
+        "id": "RLae1b8fe43830493f9b6bb0b0b889494f",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f",
+    "self": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f",
+    "rule_components": "https://reactor.adobe.io/rules/RLae1b8fe43830493f9b6bb0b0b889494f/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 17
+  }
+}

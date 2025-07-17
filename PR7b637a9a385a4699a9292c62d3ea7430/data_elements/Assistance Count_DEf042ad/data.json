@@ -1,0 +1,97 @@
+{
+  "id": "DEf042ad8ee0f44476a046b06264bd10fd",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2022-04-26T19:46:35.917Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "Assistance Count",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2022-06-17T19:37:17.683Z",
+    "created_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "created_by_display_name": "Chethan Goud Kari",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari",
+    "clean_text": true,
+    "default_value": null,
+    "delegate_descriptor_id": "core::dataElements::custom-code",
+    "force_lower_case": true,
+    "review_status": "unsubmitted",
+    "storage_duration": null,
+    "settings": "{\"source\":\"var assistanceCount = digitalData.Booking.PwdAssistance +\\\"|\\\"+ digitalData.Booking.nonPwdAssistance +\\\"|\\\"+ digitalData.Booking.nonPwd +\\\"|\\\"+ digitalData.Booking.pwd;\\n\\n//assistanceCount.replaceAll(0,\\\"NA\\\").replaceAll(\\\"undefined\\\",\\\"NA\\\");\\n\\n\\nreturn assistanceCount;\\n\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/origin"
+      },
+      "data": {
+        "id": "DEf042ad8ee0f44476a046b06264bd10fd",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/extension"
+      },
+      "data": {
+        "id": "EX9bda9062f1664c349201c88060e866e8",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EPab6ef5bcd54046888b5cb5b9a98d558b",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd/updated_with_extension"
+      },
+      "data": {
+        "id": "EX58f2367a2cc941f99dbc83f7fc464ef5",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd",
+    "self": "https://reactor.adobe.io/data_elements/DEf042ad8ee0f44476a046b06264bd10fd",
+    "extension": "https://reactor.adobe.io/extensions/EX9bda9062f1664c349201c88060e866e8"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "source": "return _satellite.getVar(\"genderFemale\")+\":\"+_satellite.getVar(\"genderMale\")+\":\"+_satellite.getVar(\"genderBinary\");\n\n\n"
+}

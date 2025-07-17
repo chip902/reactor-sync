@@ -1,0 +1,3 @@
+{
+  "source": "return digitalData && digitalData.eCommerce ? digitalData.eCommerce.cartTotal : '';"
+}

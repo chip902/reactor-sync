@@ -1,0 +1,84 @@
+{
+  "id": "EN7b241b6e3e1845cab442ebfa905f9799",
+  "type": "environments",
+  "attributes": {
+    "archive": false,
+    "created_at": "2020-03-24T16:55:59.868Z",
+    "library_path": "da9e17b55e5c/c18507490ba5",
+    "library_name": "launch-e67328a22443-development.min.js",
+    "library_entry_points": [
+      {
+        "library_name": "launch-e67328a22443-development.min.js",
+        "minified": true,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-e67328a22443-development.min.js"
+        ],
+        "license_path": "da9e17b55e5c/c18507490ba5/launch-e67328a22443-development.js"
+      },
+      {
+        "library_name": "launch-e67328a22443-development.js",
+        "minified": false,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-e67328a22443-development.js"
+        ]
+      }
+    ],
+    "name": "Env for Pixels- 2",
+    "path": "https://assets.adobedtm.com",
+    "stage": "development",
+    "updated_at": "2025-05-20T02:43:26.196Z",
+    "status": "succeeded",
+    "token": "e67328a22443",
+    "created_by_email": "pankaj.bagga@accenture.com",
+    "created_by_display_name": "Pankaj Bagga",
+    "updated_by_email": "Caitrin.Reed@amtrak.com",
+    "updated_by_display_name": "Caitrin Cummiskey"
+  },
+  "relationships": {
+    "library": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN7b241b6e3e1845cab442ebfa905f9799/library"
+      },
+      "data": null
+    },
+    "builds": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN7b241b6e3e1845cab442ebfa905f9799/builds"
+      }
+    },
+    "host": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN7b241b6e3e1845cab442ebfa905f9799/host",
+        "self": "https://reactor.adobe.io/environments/EN7b241b6e3e1845cab442ebfa905f9799/relationships/host"
+      },
+      "data": {
+        "id": "HT266cbe673d354cffb71849b6bd9cd02e",
+        "type": "hosts"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN7b241b6e3e1845cab442ebfa905f9799/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "self": "https://reactor.adobe.io/environments/EN7b241b6e3e1845cab442ebfa905f9799"
+  },
+  "meta": {
+    "archive_encrypted": false,
+    "script_sources": [
+      {
+        "hosting_region": "Standard",
+        "minified": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-e67328a22443-development.min.js",
+        "license_path": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-e67328a22443-development.js",
+        "debug": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-e67328a22443-development.js"
+      }
+    ]
+  }
+}

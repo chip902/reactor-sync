@@ -1,0 +1,17 @@
+{
+  "orgId": "2909B74F57B49A137F000101@AdobeOrg",
+  "variables": [
+    {
+      "name": "trackingServer",
+      "value": "%TempTrackingServer%"
+    },
+    {
+      "name": "trackingServerSecure",
+      "value": "%TempTrackingServer%"
+    },
+    {
+      "name": "disableIdSyncs",
+      "value": "true"
+    }
+  ]
+}

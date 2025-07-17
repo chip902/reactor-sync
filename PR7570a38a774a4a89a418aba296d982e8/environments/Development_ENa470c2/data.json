@@ -1,0 +1,90 @@
+{
+  "id": "ENa470c29657a345a798cf3ca1986d5476",
+  "type": "environments",
+  "attributes": {
+    "archive": false,
+    "created_at": "2019-05-12T15:54:49.445Z",
+    "library_path": "",
+    "library_name": "launch-ENa470c29657a345a798cf3ca1986d5476-development.min.js",
+    "library_entry_points": [
+      {
+        "library_name": "launch-ENa470c29657a345a798cf3ca1986d5476-development.min.js",
+        "minified": true,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-ENa470c29657a345a798cf3ca1986d5476-development.min.js",
+          "launch-ENa470c29657a345a798cf3ca1986d5476-development.min.js"
+        ],
+        "license_path": "launch-ENa470c29657a345a798cf3ca1986d5476-development.js"
+      },
+      {
+        "library_name": "launch-ENa470c29657a345a798cf3ca1986d5476-development.js",
+        "minified": false,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-ENa470c29657a345a798cf3ca1986d5476-development.js",
+          "launch-ENa470c29657a345a798cf3ca1986d5476-development.js"
+        ]
+      }
+    ],
+    "name": "Development",
+    "path": "https://assets.adobedtm.com",
+    "stage": "development",
+    "updated_at": "2025-07-02T14:08:32.495Z",
+    "status": "succeeded",
+    "token": "8101950ece66",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari"
+  },
+  "relationships": {
+    "library": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/ENa470c29657a345a798cf3ca1986d5476/library"
+      },
+      "data": {
+        "id": "LB6c66ef0ad05f4138b62cc493dbdbb2df",
+        "type": "libraries"
+      }
+    },
+    "builds": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/ENa470c29657a345a798cf3ca1986d5476/builds"
+      }
+    },
+    "host": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/ENa470c29657a345a798cf3ca1986d5476/host",
+        "self": "https://reactor.adobe.io/environments/ENa470c29657a345a798cf3ca1986d5476/relationships/host"
+      },
+      "data": {
+        "id": "HT266cbe673d354cffb71849b6bd9cd02e",
+        "type": "hosts"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/ENa470c29657a345a798cf3ca1986d5476/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "self": "https://reactor.adobe.io/environments/ENa470c29657a345a798cf3ca1986d5476"
+  },
+  "meta": {
+    "archive_encrypted": false,
+    "script_sources": [
+      {
+        "hosting_region": "Standard",
+        "minified": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-ENa470c29657a345a798cf3ca1986d5476-development.min.js",
+        "license_path": "https://assets.adobedtm.com/launch-ENa470c29657a345a798cf3ca1986d5476-development.js",
+        "legacy_minified": "https://assets.adobedtm.com/launch-ENa470c29657a345a798cf3ca1986d5476-development.min.js",
+        "debug": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-ENa470c29657a345a798cf3ca1986d5476-development.js"
+      }
+    ]
+  }
+}

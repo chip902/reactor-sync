@@ -34,43 +34,37 @@ async function getAccessToken(settings) {
   if (!integration.payload) {
     throw Error('settings file does not have an "integration.payload" property.');
   }
-  if (!integration.privateKey) {
-    throw Error('settings file does not have an "integration.privateKey" property.');
-  }
   if (!environment) {
     throw Error('settings file does not have an "environment" property.');
   }
   if (!environment.jwt) {
     throw Error('settings file does not have an "environment.jwt" property.');
   }
- 
+
+  // OAuth 2.0 Client Credentials flow (Modern Adobe authentication)
   const clientId = integration.clientId;
   const clientSecret = integration.clientSecret;
-  const scope = 'AdobeID,openid,read_organizations,additional_info.job_function,additional_info.projectedProductContext,additional_info.roles';
-  
   const tokenUrl = 'https://ims-na1.adobelogin.com/ims/token/v3';
-  const body = new URLSearchParams({
-    client_id: clientId,
-    client_secret: clientSecret,
-    grant_type: 'client_credentials',
-    scope
-  });
-  
-  const accessToken = await fetch(tokenUrl, {
+
+  const response = await fetch(tokenUrl, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded'
     },
-    body
-  })
-  .then(response => response.json())
-  .then(data => {
-    return data.access_token;
-  })
-  .catch(error => console.error(error));
+    body: new URLSearchParams({
+      grant_type: 'client_credentials',
+      client_id: clientId,
+      client_secret: clientSecret,
+      scope: 'AdobeID,openid,read_organizations,additional_info.job_function,additional_info.projectedProductContext,additional_info.roles'
+    })
+  });
 
-  return accessToken;
+  if (!response.ok) {
+    throw new Error(`Error fetching access token: ${response.statusText}`);
+  }
 
+  const data = await response.json();
+  return data.access_token;
 }
 
 module.exports = checkAccessToken;

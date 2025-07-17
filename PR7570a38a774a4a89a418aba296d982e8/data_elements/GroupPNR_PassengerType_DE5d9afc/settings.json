@@ -1,0 +1,3 @@
+{
+  "source": "return _satellite.getVar(\"PassengerType_childrenCount\") +\":\"+ _satellite.getVar(\"PassengerType_adultsCount\") +\":\"+ _satellite.getVar(\"PassengerType_seniorsCount\");"
+}

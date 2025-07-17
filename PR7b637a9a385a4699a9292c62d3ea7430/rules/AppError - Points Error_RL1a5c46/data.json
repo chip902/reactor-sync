@@ -1,0 +1,69 @@
+{
+  "id": "RL1a5c46c4a92444bdb29deff008a3a698",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2019-10-03T15:31:34.643Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AppError - Points Error",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2019-10-03T15:31:34.643Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "N/A",
+    "updated_by_display_name": "N/A",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698/origin"
+      },
+      "data": {
+        "id": "RL1a5c46c4a92444bdb29deff008a3a698",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698",
+    "self": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698",
+    "rule_components": "https://reactor.adobe.io/rules/RL1a5c46c4a92444bdb29deff008a3a698/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

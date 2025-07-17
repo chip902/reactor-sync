@@ -1,0 +1,69 @@
+{
+  "id": "RLb861103a41d4446cab2ba8ef3e599a07",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2019-09-10T16:39:51.604Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": false,
+    "name": "JsonRequestSuccess",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2020-06-26T11:23:05.088Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "pankaj.bagga@accenture.com",
+    "updated_by_display_name": "Pankaj Bagga",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07/origin"
+      },
+      "data": {
+        "id": "RLb861103a41d4446cab2ba8ef3e599a07",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07",
+    "self": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07",
+    "rule_components": "https://reactor.adobe.io/rules/RLb861103a41d4446cab2ba8ef3e599a07/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

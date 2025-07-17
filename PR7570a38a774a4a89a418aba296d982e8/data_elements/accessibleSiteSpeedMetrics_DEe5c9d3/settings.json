@@ -1,0 +1,3 @@
+{
+  "source": "var accessibleSiteSpeedMetrics = \"\";\n\naccessibleSiteSpeedMetrics = _satellite.getVar(\"responseCompleteTime\") + \":\" + _satellite.getVar(\"pageRenderTime\") + \":\" + _satellite.getVar(\"serverResponseTime\") + \":\" + \n_satellite.getVar(\"totalDOMCompleteTime\") + \":\" + _satellite.getVar(\"totalPageLoadTime\");\n\nreturn accessibleSiteSpeedMetrics"
+}

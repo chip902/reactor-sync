@@ -1,0 +1,3 @@
+{
+  "source": "return _satellite.getVar(\"numberOfCheckIns\") +\":\"+ _satellite.getVar(\"checkInDepartureDate\");"
+}

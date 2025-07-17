@@ -1,0 +1,3 @@
+{
+  "source": "var assistanceCount = digitalData.Booking.pwdAssistanceCount +\"|\"+ digitalData.Booking.nonPwdAssistanceCount;\n\nassistanceCount.replaceAll(0,\"NA\").replaceAll(\"undefined\",\"NA\");\n\nreturn assistanceCount;\n\n\n\n"
+}

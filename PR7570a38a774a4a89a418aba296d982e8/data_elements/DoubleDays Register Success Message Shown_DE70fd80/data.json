@@ -1,0 +1,97 @@
+{
+  "id": "DE70fd803f894e47afa2da93aa003a2cd5",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2020-09-04T21:16:48.720Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "DoubleDays Register Success Message Shown",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2022-08-29T23:00:42.947Z",
+    "created_by_email": "analytics@blastam.com",
+    "created_by_display_name": "Blast Analytics",
+    "updated_by_email": "analytics@blastam.com",
+    "updated_by_display_name": "Blast Analytics",
+    "clean_text": false,
+    "default_value": null,
+    "delegate_descriptor_id": "core::dataElements::custom-code",
+    "force_lower_case": false,
+    "review_status": "unsubmitted",
+    "storage_duration": null,
+    "settings": "{\"source\":\"if(typeof jQuery != 'undefined' \\u0026\\u0026 jQuery('.promotion-registration .message.success.welcome-greeting').length\\u003e0){\\n   return true;\\n}\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/origin"
+      },
+      "data": {
+        "id": "DE70fd803f894e47afa2da93aa003a2cd5",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/extension"
+      },
+      "data": {
+        "id": "EX23ea53ccc34e4aa3b1cb9553bff71a3b",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EPd22815afd48447aa955be6a3a012e3b5",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5/updated_with_extension"
+      },
+      "data": {
+        "id": "EX4c2447264e3149a1ad08d76533aaca05",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5",
+    "self": "https://reactor.adobe.io/data_elements/DE70fd803f894e47afa2da93aa003a2cd5",
+    "extension": "https://reactor.adobe.io/extensions/EX23ea53ccc34e4aa3b1cb9553bff71a3b"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

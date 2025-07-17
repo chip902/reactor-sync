@@ -1,0 +1,97 @@
+{
+  "id": "DEfb63aba4f0214f10aaf1eaca849f1f29",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2024-05-02T23:58:03.717Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "google_journey",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2024-06-11T10:40:16.108Z",
+    "created_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "created_by_display_name": "Chethan Goud Kari",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari",
+    "clean_text": false,
+    "default_value": null,
+    "delegate_descriptor_id": "core::dataElements::custom-code",
+    "force_lower_case": false,
+    "review_status": "unsubmitted",
+    "storage_duration": "session",
+    "settings": "{\"source\":\"var fromStopTimeId = _satellite.getVar(\\\"google_from_ticketing_stop_time_id\\\");\\nvar toStopTimeId = _satellite.getVar(\\\"google_to_ticketing_stop_time_id\\\");\\nvar boardingTime = _satellite.getVar(\\\"google_boarding_time\\\");\\n\\nif (typeof fromStopTimeId !== 'undefined' \\u0026\\u0026 typeof toStopTimeId !== 'undefined' \\u0026\\u0026 typeof boardingTime !== 'undefined') {\\n    _satellite.cookie.set(\\\"googleDetails\\\", fromStopTimeId + \\\":\\\" + toStopTimeId + \\\":\\\" + boardingTime);\\n    return fromStopTimeId + \\\":\\\" + toStopTimeId + \\\":\\\" + boardingTime;\\n}\\n\\n\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/origin"
+      },
+      "data": {
+        "id": "DEfb63aba4f0214f10aaf1eaca849f1f29",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/extension"
+      },
+      "data": {
+        "id": "EX23ea53ccc34e4aa3b1cb9553bff71a3b",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP1fdd2a6ec2ae468fb1d2cac08df65f83",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29/updated_with_extension"
+      },
+      "data": {
+        "id": "EX0b95ebe742a8416988c6d19d4a2751c7",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29",
+    "self": "https://reactor.adobe.io/data_elements/DEfb63aba4f0214f10aaf1eaca849f1f29",
+    "extension": "https://reactor.adobe.io/extensions/EX23ea53ccc34e4aa3b1cb9553bff71a3b"
+  },
+  "meta": {
+    "latest_revision_number": 5
+  }
+}

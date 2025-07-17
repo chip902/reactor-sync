@@ -1,0 +1,87 @@
+{
+  "id": "EX7af8a0c41879449f9ab971046af1cd63",
+  "type": "extensions",
+  "attributes": {
+    "created_at": "2025-03-14T03:34:46.459Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": false,
+    "name": "adobe-target-v2",
+    "published": false,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-05-05T14:44:51.791Z",
+    "created_by_email": "Andrew.Chepurny@amtrak.com",
+    "created_by_display_name": "Andrew Chepurny",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "delegate_descriptor_id": "adobe-target-v2::extensionConfiguration::config",
+    "display_name": "Adobe Target v2",
+    "review_status": "unsubmitted",
+    "version": "0.20.5",
+    "settings": "{\"targetSettings\":{\"enabled\":true,\"timeout\":\"3000\",\"version\":\"2.11.7\",\"endpoint\":\"/rest/v1/delivery\",\"imsOrgId\":\"2909B74F57B49A137F000101@AdobeOrg\",\"clientCode\":\"amtrakdigital\",\"secureOnly\":false,\"serverState\":{},\"optinEnabled\":false,\"serverDomain\":\"amtrakdigital.tt.omtrdc.net\",\"urlSizeLimit\":2048,\"viewsEnabled\":true,\"optoutEnabled\":false,\"bodyHiddenStyle\":\"body {opacity: 0}\",\"pageLoadEnabled\":true,\"analyticsLogging\":\"server_side\",\"deviceIdLifetime\":63244800000,\"bodyHidingEnabled\":true,\"decisioningMethod\":\"hybrid\",\"sessionIdLifetime\":1860000,\"visitorApiTimeout\":2000,\"authoringScriptUrl\":\"//cdn.tt.omtrdc.net/cdn/target-vec.js\",\"overrideMboxEdgeServer\":false,\"selectorsPollingTimeout\":5000,\"defaultContentHiddenStyle\":\"visibility: hidden;\",\"defaultContentVisibleStyle\":\"visibility: visible;\",\"overrideMboxEdgeServerTimeout\":1860000,\"supplementalDataIdParamTimeout\":30}}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63/origin"
+      },
+      "data": {
+        "id": "EX7af8a0c41879449f9ab971046af1cd63",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP6cd760aa51e0473a9d97b5c19aae7257",
+        "type": "extension_packages"
+      }
+    },
+    "extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63/extension_package"
+      },
+      "data": {
+        "id": "EP6cd760aa51e0473a9d97b5c19aae7257",
+        "type": "extension_packages"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63",
+    "self": "https://reactor.adobe.io/extensions/EX7af8a0c41879449f9ab971046af1cd63",
+    "extension_package": "https://reactor.adobe.io/extension_packages/EP6cd760aa51e0473a9d97b5c19aae7257",
+    "latest_extension_package": "https://reactor.adobe.io/extension_packages/EP6cd760aa51e0473a9d97b5c19aae7257"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

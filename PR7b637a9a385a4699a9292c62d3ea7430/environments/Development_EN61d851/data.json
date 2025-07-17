@@ -1,0 +1,87 @@
+{
+  "id": "EN61d851e1f88a4540a59e6dca227289e4",
+  "type": "environments",
+  "attributes": {
+    "archive": false,
+    "created_at": "2019-09-10T17:04:25.783Z",
+    "library_path": "da9e17b55e5c/828a16752694",
+    "library_name": "launch-d2c86497c432-development.min.js",
+    "library_entry_points": [
+      {
+        "library_name": "launch-d2c86497c432-development.min.js",
+        "minified": true,
+        "references": [
+          "da9e17b55e5c/828a16752694/launch-d2c86497c432-development.min.js"
+        ],
+        "license_path": "da9e17b55e5c/828a16752694/launch-d2c86497c432-development.js"
+      },
+      {
+        "library_name": "launch-d2c86497c432-development.js",
+        "minified": false,
+        "references": [
+          "da9e17b55e5c/828a16752694/launch-d2c86497c432-development.js"
+        ]
+      }
+    ],
+    "name": "Development",
+    "path": "https://assets.adobedtm.com",
+    "stage": "development",
+    "updated_at": "2025-06-30T18:12:47.475Z",
+    "status": "succeeded",
+    "token": "d2c86497c432",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari"
+  },
+  "relationships": {
+    "library": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN61d851e1f88a4540a59e6dca227289e4/library"
+      },
+      "data": {
+        "id": "LB8527e7cc966b40efafc4b909c4309b1d",
+        "type": "libraries"
+      }
+    },
+    "builds": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN61d851e1f88a4540a59e6dca227289e4/builds"
+      }
+    },
+    "host": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN61d851e1f88a4540a59e6dca227289e4/host",
+        "self": "https://reactor.adobe.io/environments/EN61d851e1f88a4540a59e6dca227289e4/relationships/host"
+      },
+      "data": {
+        "id": "HT062d70c10b2a41fabaef41bb29f479ed",
+        "type": "hosts"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN61d851e1f88a4540a59e6dca227289e4/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "self": "https://reactor.adobe.io/environments/EN61d851e1f88a4540a59e6dca227289e4"
+  },
+  "meta": {
+    "archive_encrypted": false,
+    "script_sources": [
+      {
+        "hosting_region": "Standard",
+        "minified": "https://assets.adobedtm.com/da9e17b55e5c/828a16752694/launch-d2c86497c432-development.min.js",
+        "license_path": "https://assets.adobedtm.com/da9e17b55e5c/828a16752694/launch-d2c86497c432-development.js",
+        "debug": "https://assets.adobedtm.com/da9e17b55e5c/828a16752694/launch-d2c86497c432-development.js"
+      }
+    ]
+  }
+}

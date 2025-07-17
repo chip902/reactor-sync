@@ -1,0 +1,69 @@
+{
+  "id": "RLeba7956fa45347d5a108e73acaaaed3b",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2023-09-05T14:10:22.623Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": false,
+    "name": "AA_Amtrak Reservations PassengerInformation PhoneNumber Checked",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-03-04T01:02:04.781Z",
+    "created_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "created_by_display_name": "Chethan Goud Kari",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b/origin"
+      },
+      "data": {
+        "id": "RLeba7956fa45347d5a108e73acaaaed3b",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b",
+    "self": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b",
+    "rule_components": "https://reactor.adobe.io/rules/RLeba7956fa45347d5a108e73acaaaed3b/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 4
+  }
+}

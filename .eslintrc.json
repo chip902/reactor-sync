@@ -8,15 +8,13 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    
     // linting
     "no-console": "off",
     "no-unused-vars": "warn",
-
     // styles
     "indent": [
       "error",
-      2, 
+      2,
       {
         "SwitchCase": 1,
         "VariableDeclarator": 1,
@@ -38,7 +36,6 @@
       "error",
       "always"
     ]
-    
   },
   "globals": {
     "Promise": "readonly"

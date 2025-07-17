@@ -1,0 +1,3 @@
+{
+  "source": "return digitalData && digitalData.AccountManagement ? digitalData.AccountManagement.favDeparture : '';"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "RL0f9b6a812ddb4453881fba310fdc6b80",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2025-01-05T23:20:36.981Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AA All Pages Global Variables - Opt Out",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-04-25T19:22:57.665Z",
+    "created_by_email": "Andrew.Chepurny@amtrak.com",
+    "created_by_display_name": "Andrew Chepurny",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80/origin"
+      },
+      "data": {
+        "id": "RL0f9b6a812ddb4453881fba310fdc6b80",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80",
+    "self": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80",
+    "rule_components": "https://reactor.adobe.io/rules/RL0f9b6a812ddb4453881fba310fdc6b80/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 8
+  }
+}

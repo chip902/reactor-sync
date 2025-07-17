@@ -1,0 +1,69 @@
+{
+  "id": "RLfabfb60439284e14a1940e439ca4269a",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2021-06-04T03:22:35.186Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AA_Amtrak_Tickets_CheckInConfirm_USA_RailPass",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-03-28T00:33:22.565Z",
+    "created_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "created_by_display_name": "Chethan Goud",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a/origin"
+      },
+      "data": {
+        "id": "RLfabfb60439284e14a1940e439ca4269a",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a",
+    "self": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a",
+    "rule_components": "https://reactor.adobe.io/rules/RLfabfb60439284e14a1940e439ca4269a/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 22
+  }
+}

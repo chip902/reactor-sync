@@ -1,0 +1,3 @@
+{
+  "source": "if((digitalData.Booking != undefined) && (digitalData.Booking != '')){\n  if((digitalData.Booking.TravelSearchDepartureStationCode != undefined) && (digitalData.Booking.TravelSearchDepartureStationCode != '') && \n     (digitalData.Booking.TravelSearchArrivalStationCode != undefined) && (digitalData.Booking.TravelSearchArrivalStationCode != '')){\n  var res = digitalData.Booking.TravelSearchDepartureStationCode + \"-\" + digitalData.Booking.TravelSearchArrivalStationCode;\n  return res;\n  }\n}"
+}

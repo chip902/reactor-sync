@@ -1,0 +1,3 @@
+{
+  "source": "if(location.host == 'm.amtrak.com'){\n  return 'V2_603942';\n}else{\n  return 'V2_603935';\n}"
+}

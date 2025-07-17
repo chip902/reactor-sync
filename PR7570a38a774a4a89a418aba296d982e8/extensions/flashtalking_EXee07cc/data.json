@@ -1,0 +1,88 @@
+{
+  "id": "EXee07cc0834c74ba280b5d70e5e5e7d0e",
+  "type": "extensions",
+  "attributes": {
+    "created_at": "2022-02-18T22:56:39.136Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "flashtalking",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2022-02-18T22:56:39.136Z",
+    "created_by_email": "analytics@blastam.com",
+    "created_by_display_name": "Blast Analytics",
+    "updated_by_email": "analytics@blastam.com",
+    "updated_by_display_name": "Blast Analytics",
+    "delegate_descriptor_id": null,
+    "display_name": "Flashtalking OneTag",
+    "review_status": "unsubmitted",
+    "version": "1.0.4",
+    "settings": "{}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e/origin"
+      },
+      "data": {
+        "id": "EXee07cc0834c74ba280b5d70e5e5e7d0e",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP5ae718914f7c4b778fee45f7001196ae",
+        "type": "extension_packages"
+      }
+    },
+    "extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e/extension_package"
+      },
+      "data": {
+        "id": "EP5ae718914f7c4b778fee45f7001196ae",
+        "type": "extension_packages"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e",
+    "self": "https://reactor.adobe.io/extensions/EXee07cc0834c74ba280b5d70e5e5e7d0e",
+    "extension_package": "https://reactor.adobe.io/extension_packages/EP5ae718914f7c4b778fee45f7001196ae",
+    "latest_extension_package": "https://reactor.adobe.io/extension_packages/EP6e06c48e87ef483396534404f4238594"
+  },
+  "meta": {
+    "latest_revision_number": 1,
+    "upgrade_extension_package_id": "EP6e06c48e87ef483396534404f4238594"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "source": "//return digitalData.ErrDetails.businessMessage + \":\" + digitalData.ErrDetails.errorCode + \":\" + digitalData.ErrDetails.errorType + \":\" + digitalData.ErrDetails.subChannelId + \":\" + digitalData.ErrDetails.sysError + \":\" + digitalData.ErrDetails.sysMessage;\n\n\n\nif(digitalData.ErrDetails!=undefined) {\n\nvar ErrDetails = digitalData.ErrDetails.businessMessage + \"|\" + digitalData.ErrDetails.errorCode + \"|\" + digitalData.ErrDetails.errorType + \"|\" + digitalData.ErrDetails.subChannelId + \"|\" + digitalData.ErrDetails.sysError + \"|\" + digitalData.ErrDetails.sysMessage;\n}\n\nreturn ErrDetails;"
+}

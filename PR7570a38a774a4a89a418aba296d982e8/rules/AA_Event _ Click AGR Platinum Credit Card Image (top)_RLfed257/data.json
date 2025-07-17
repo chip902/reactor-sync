@@ -1,0 +1,69 @@
+{
+  "id": "RLfed257dabb8f4a4fac1b1e9a32d7affa",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2019-05-16T12:00:36.625Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AA_Event | Click AGR Platinum Credit Card Image (top)",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-03-28T00:56:25.272Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa/origin"
+      },
+      "data": {
+        "id": "RLfed257dabb8f4a4fac1b1e9a32d7affa",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa",
+    "self": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa",
+    "rule_components": "https://reactor.adobe.io/rules/RLfed257dabb8f4a4fac1b1e9a32d7affa/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 11
+  }
+}

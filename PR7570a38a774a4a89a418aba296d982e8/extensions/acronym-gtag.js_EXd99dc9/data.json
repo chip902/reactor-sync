@@ -1,0 +1,87 @@
+{
+  "id": "EXd99dc9a104e84f2994754e42f1823500",
+  "type": "extensions",
+  "attributes": {
+    "created_at": "2019-05-16T12:02:24.992Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "acronym-gtag.js",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-04-02T23:41:14.287Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "delegate_descriptor_id": "acronym-gtag.js::extensionConfiguration::config",
+    "display_name": "Google Global Site Tag (gtag)",
+    "review_status": "unsubmitted",
+    "version": "2.0.0",
+    "settings": "{\"accounts\":{\"1554310896224\":{\"id\":\"1554310896224\",\"name\":\"AW-816590927 (VA - Siddall)\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-816590927\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1584735696876\":{\"id\":\"1584735696876\",\"name\":\"AW-677839036 (NYS - AMNY)\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-677839036\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1584735831919\":{\"id\":\"1584735831919\",\"name\":\"AW-750059675\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-750059675\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1584735882335\":{\"id\":\"1584735882335\",\"name\":\"AW-750086794\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-750086794\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1584735912828\":{\"id\":\"1584735912828\",\"name\":\"AW-999695143 (Mediacom Ad Words)\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-999695143\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1584735995661\":{\"id\":\"1584735995661\",\"name\":\"DC-8648022 (CA San Joaquins - Centro)\",\"type\":\"dc\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"DC-8648022\",\"development\":\"\"},\"settings\":{}},\"1584736013166\":{\"id\":\"1584736013166\",\"name\":\"DC-8939204 (Mediacom Campaign Manager)\",\"type\":\"dc\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"DC-8939204\",\"development\":\"\"},\"settings\":{}},\"1584736054274\":{\"id\":\"1584736054274\",\"name\":\"DC-9585436 (SSJPA - iHeart)\",\"type\":\"dc\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"DC-9585436\",\"development\":\"\"},\"settings\":{}},\"1601584312484\":{\"id\":\"1601584312484\",\"name\":\"AW-679137743 (SJJPA - Jeffrey Scott Agency)\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-679137743\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1627335885648\":{\"id\":\"1627335885648\",\"name\":\"DC-8523661 (Capitol Corridor)\",\"type\":\"dc\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"DC-8523661\",\"development\":\"\"},\"settings\":{}},\"1659024931338\":{\"id\":\"1659024931338\",\"name\":\"AW-939791797 (Pacific Surfliner)\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-939791797\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1668383584104\":{\"id\":\"1668383584104\",\"name\":\"DC-12560928(Downeaster)\",\"type\":\"dc\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"DC-12560928\",\"development\":\"\"},\"settings\":{}},\"1742830475322\":{\"id\":\"1742830475322\",\"name\":\"AW-16884716234 - MA | Amtrak Valley Flyer | the Watsons\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-16884716234\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}},\"1743357274517\":{\"id\":\"1743357274517\",\"name\":\"Source Marketing - LPV\",\"type\":\"dc\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"DC-13223607\",\"development\":\"\"},\"settings\":{}},\"1743637272071\":{\"id\":\"1743637272071\",\"name\":\"Google Direct\",\"type\":\"aw\",\"options\":[],\"accounts\":{\"staging\":\"\",\"production\":\"AW-16811629037\",\"development\":\"\"},\"settings\":{\"conversion_linker\":true,\"conversion_cookie_prefix\":\"\"}}},\"configCode\":\"// Check if the user has given consent for the group C0004\\nif (typeof OnetrustActiveGroups !== \\\"undefined\\\" \\u0026\\u0026 /,C0004,/gi.test(OnetrustActiveGroups)) {\\n//if ((\\\"undefined\\\" != typeof OnetrustActiveGroups \\u0026\\u0026 /,C0004,/gi.test(OnetrustActiveGroups))) {\\n    // Consent for C0004 is present, initialize gtag for each account ID\\n    gtag('config', 'AW-816503027');  // VA - Soledad\\n    gtag('config', 'AW-677839036');  // NYS - AMNY\\n    gtag('config', 'AW-75006975');   // Another Account\\n    gtag('config', 'AW-75006974');   // Another Account\\n    gtag('config', 'AW-90956143');   // Mediacom Ad Words\\n    gtag('config', 'DC-8648222');    // EA San Joaquin - Centro\\n    gtag('config', 'DC-8231048');    // Mediacom Campaign Manager\\n    gtag('config', 'DC-9634548');    // SIUPA - iHeart\\n    gtag('config', 'AW-91197423');   // SIUPA - Jeffrey Scott Agency\\n    gtag('config', 'UA-23218774-1'); // Another UA Account\\n    gtag('config', 'DC-8521861');    // ExactRail Corridor\\n    gtag('config', 'AW-16884716234');  // Valley Flyer\\n    gtag('config', 'AW-992697720');  // Another Account\\n    gtag('config', 'DC-94680972');   // Pacific Surfboard\\n    gtag('config', 'AW-903250860');  // Another Account\\n    gtag('config', 'DC-12652015');   // DoubleClick Account\\n    gtag('config', 'DC-16811629037');  // Google Direct Floodlight\\n} else {\\n    // Consent for C0004 is not present, skip gtag initialization\\n    console.log('Consent for C0004 not granted. Skipping gtag initialization.');\\n}\\n\",\"functionName\":\"\",\"dataLayerName\":\"\",\"preConfigCode\":\"\",\"displayFeatures\":true}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500/origin"
+      },
+      "data": {
+        "id": "EXd99dc9a104e84f2994754e42f1823500",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP4088787701664ce4bfc67739775f5c33",
+        "type": "extension_packages"
+      }
+    },
+    "extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500/extension_package"
+      },
+      "data": {
+        "id": "EP4088787701664ce4bfc67739775f5c33",
+        "type": "extension_packages"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500",
+    "self": "https://reactor.adobe.io/extensions/EXd99dc9a104e84f2994754e42f1823500",
+    "extension_package": "https://reactor.adobe.io/extension_packages/EP4088787701664ce4bfc67739775f5c33",
+    "latest_extension_package": "https://reactor.adobe.io/extension_packages/EP4088787701664ce4bfc67739775f5c33"
+  },
+  "meta": {
+    "latest_revision_number": 32
+  }
+}

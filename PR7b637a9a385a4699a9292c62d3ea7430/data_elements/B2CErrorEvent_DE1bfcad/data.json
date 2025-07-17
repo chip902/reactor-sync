@@ -1,0 +1,97 @@
+{
+  "id": "DE1bfcad6dcba24154af442c0073847da7",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2021-07-02T19:13:27.853Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "B2CErrorEvent",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2021-07-13T19:35:50.695Z",
+    "created_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "created_by_display_name": "Chethan Goud",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud",
+    "clean_text": false,
+    "default_value": null,
+    "delegate_descriptor_id": "core::dataElements::javascript-variable",
+    "force_lower_case": false,
+    "review_status": "unsubmitted",
+    "storage_duration": null,
+    "settings": "{\"path\":\"digitalData.B2CErrorEvent\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/origin"
+      },
+      "data": {
+        "id": "DE1bfcad6dcba24154af442c0073847da7",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/extension"
+      },
+      "data": {
+        "id": "EX9bda9062f1664c349201c88060e866e8",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP2c73f67d94bb4dfb8c54d3436dc19256",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7/updated_with_extension"
+      },
+      "data": {
+        "id": "EX0651604009b54dc6bb98e1fe2fe13733",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7",
+    "self": "https://reactor.adobe.io/data_elements/DE1bfcad6dcba24154af442c0073847da7",
+    "extension": "https://reactor.adobe.io/extensions/EX9bda9062f1664c349201c88060e866e8"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

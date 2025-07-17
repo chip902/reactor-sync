@@ -1,0 +1,3 @@
+{
+  "source": "for (var i=0;i<document.getElementsByClassName('alme--window--conversation--input--user__message__text').length;i++){\n    if(document.getElementsByClassName('alme--window--conversation--input--user__message__text')){\n        return document.getElementsByClassName('alme--window--conversation--input--user__message__text')[i].textContent;\n    }\n}"
+}

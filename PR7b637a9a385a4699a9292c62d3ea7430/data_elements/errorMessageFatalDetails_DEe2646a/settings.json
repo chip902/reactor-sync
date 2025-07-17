@@ -1,0 +1,3 @@
+{
+  "source": "var errorMessageFatalDetails = digitalData.ErrDetails.sysError +\"|\"+ digitalData.ErrDetails.sysMessage +\"|\"+ digitalData.ErrDetails.businessMessage +\"|\"+ digitalData.ErrDetails.errorCode +\"|\"+ digitalData.ErrDetails.channelId +\"|\"+ digitalData.ErrDetails.subChannelId +\"|\"+ digitalData.ErrDetails.errorHeader\nreturn errorMessageFatalDetails;"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "RL8c2f49c1f89c42b889d98af33c89de54",
+  "type": "rules",
+  "attributes": {
+    "created_at": "2019-05-12T15:55:29.402Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "AA_AGR_account:RequestPoints",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-03-28T00:14:48.530Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "review_status": "unsubmitted"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54/origin"
+      },
+      "data": {
+        "id": "RL8c2f49c1f89c42b889d98af33c89de54",
+        "type": "rules"
+      }
+    },
+    "rule_components": {
+      "links": {
+        "related": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54/rule_components"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54",
+    "self": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54",
+    "rule_components": "https://reactor.adobe.io/rules/RL8c2f49c1f89c42b889d98af33c89de54/rule_components"
+  },
+  "meta": {
+    "latest_revision_number": 9
+  }
+}

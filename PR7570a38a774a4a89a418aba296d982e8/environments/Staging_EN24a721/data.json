@@ -1,0 +1,87 @@
+{
+  "id": "EN24a721dcd7414a049d9553c40fad678c",
+  "type": "environments",
+  "attributes": {
+    "archive": false,
+    "created_at": "2019-05-12T15:54:49.604Z",
+    "library_path": "",
+    "library_name": "launch-EN24a721dcd7414a049d9553c40fad678c-staging.min.js",
+    "library_entry_points": [
+      {
+        "library_name": "launch-EN24a721dcd7414a049d9553c40fad678c-staging.min.js",
+        "minified": true,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-EN24a721dcd7414a049d9553c40fad678c-staging.min.js",
+          "launch-EN24a721dcd7414a049d9553c40fad678c-staging.min.js"
+        ],
+        "license_path": "launch-EN24a721dcd7414a049d9553c40fad678c-staging.js"
+      },
+      {
+        "library_name": "launch-EN24a721dcd7414a049d9553c40fad678c-staging.js",
+        "minified": false,
+        "references": [
+          "da9e17b55e5c/c18507490ba5/launch-EN24a721dcd7414a049d9553c40fad678c-staging.js",
+          "launch-EN24a721dcd7414a049d9553c40fad678c-staging.js"
+        ]
+      }
+    ],
+    "name": "Staging",
+    "path": "https://assets.adobedtm.com",
+    "stage": "staging",
+    "updated_at": "2025-07-08T05:24:00.388Z",
+    "status": "succeeded",
+    "token": "4c83317a6603",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "analytics@blastam.com",
+    "updated_by_display_name": "Blast Analytics"
+  },
+  "relationships": {
+    "library": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN24a721dcd7414a049d9553c40fad678c/library"
+      },
+      "data": null
+    },
+    "builds": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN24a721dcd7414a049d9553c40fad678c/builds"
+      }
+    },
+    "host": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN24a721dcd7414a049d9553c40fad678c/host",
+        "self": "https://reactor.adobe.io/environments/EN24a721dcd7414a049d9553c40fad678c/relationships/host"
+      },
+      "data": {
+        "id": "HT266cbe673d354cffb71849b6bd9cd02e",
+        "type": "hosts"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/environments/EN24a721dcd7414a049d9553c40fad678c/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "self": "https://reactor.adobe.io/environments/EN24a721dcd7414a049d9553c40fad678c"
+  },
+  "meta": {
+    "archive_encrypted": false,
+    "script_sources": [
+      {
+        "hosting_region": "Standard",
+        "minified": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-EN24a721dcd7414a049d9553c40fad678c-staging.min.js",
+        "license_path": "https://assets.adobedtm.com/launch-EN24a721dcd7414a049d9553c40fad678c-staging.js",
+        "legacy_minified": "https://assets.adobedtm.com/launch-EN24a721dcd7414a049d9553c40fad678c-staging.min.js",
+        "debug": "https://assets.adobedtm.com/da9e17b55e5c/c18507490ba5/launch-EN24a721dcd7414a049d9553c40fad678c-staging.js"
+      }
+    ]
+  }
+}

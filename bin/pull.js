@@ -22,7 +22,8 @@ async function setSettings(args) {
 async function pull(args) {
   const spinner = startSpinner();
   const settings = await setSettings(args);
-  writeResources(resourceTypes, settings);
+  // Pass the args to writeResources so we can access friendlyNames flag
+  writeResources(resourceTypes, settings, args);
   spinner.stop();
 }
 

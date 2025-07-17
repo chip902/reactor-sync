@@ -1,0 +1,3 @@
+{
+  "source": "if (window.digitalData && digitalData.eCommerce && digitalData.eCommerce.item) {\n\tvar totalProductPrice = 0;\n\tfor (i=0;i<digitalData.eCommerce.item.length;i++) {\n\t\ttotalProductPrice += parseFloat(digitalData.eCommerce.item[i].productInfo.price);\n\t}\n\treturn totalProductPrice;\n}"
+}

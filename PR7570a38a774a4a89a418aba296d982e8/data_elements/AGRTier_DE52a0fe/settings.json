@@ -1,0 +1,3 @@
+{
+  "source": "if (typeof digitalData == 'object' && typeof digitalData.AccountManagement == 'object') {\n  return digitalData && digitalData.AccountManagement ? digitalData.AccountManagement?.AGRTier : '';\n}"
+}

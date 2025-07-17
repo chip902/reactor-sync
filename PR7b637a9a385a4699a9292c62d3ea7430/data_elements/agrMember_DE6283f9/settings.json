@@ -1,0 +1,3 @@
+{
+  "source": "if (_satellite.readCookie('LoginCookie'))\n  return true;\nelse\n  return undefined;"
+}

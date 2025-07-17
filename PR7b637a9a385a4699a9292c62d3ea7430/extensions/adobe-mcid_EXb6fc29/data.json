@@ -1,0 +1,87 @@
+{
+  "id": "EXb6fc29a8e0e54f7a9364d6248e33ffae",
+  "type": "extensions",
+  "attributes": {
+    "created_at": "2019-09-10T16:37:31.109Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "adobe-mcid",
+    "published": false,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2025-06-30T18:05:52.691Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "Andrew.Chepurny@amtrak.com",
+    "updated_by_display_name": "Andrew Chepurny",
+    "delegate_descriptor_id": "adobe-mcid::extensionConfiguration::config",
+    "display_name": "Experience Cloud ID Service",
+    "review_status": "unsubmitted",
+    "version": "5.5.0",
+    "settings": "{\"orgId\":\"2909B74F57B49A137F000101@AdobeOrg\",\"variables\":[{\"name\":\"trackingServer\",\"value\":\"%TempTrackingServer%\"},{\"name\":\"trackingServerSecure\",\"value\":\"%TempTrackingServer%\"},{\"name\":\"disableIdSyncs\",\"value\":\"true\"}]}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae/property"
+      },
+      "data": {
+        "id": "PR7b637a9a385a4699a9292c62d3ea7430",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae/origin"
+      },
+      "data": {
+        "id": "EXb6fc29a8e0e54f7a9364d6248e33ffae",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP31a59fd25d824db7be52972a70e94c1c",
+        "type": "extension_packages"
+      }
+    },
+    "extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae/extension_package"
+      },
+      "data": {
+        "id": "EP31a59fd25d824db7be52972a70e94c1c",
+        "type": "extension_packages"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7b637a9a385a4699a9292c62d3ea7430",
+    "origin": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae",
+    "self": "https://reactor.adobe.io/extensions/EXb6fc29a8e0e54f7a9364d6248e33ffae",
+    "extension_package": "https://reactor.adobe.io/extension_packages/EP31a59fd25d824db7be52972a70e94c1c",
+    "latest_extension_package": "https://reactor.adobe.io/extension_packages/EP31a59fd25d824db7be52972a70e94c1c"
+  },
+  "meta": {
+    "latest_revision_number": 11
+  }
+}

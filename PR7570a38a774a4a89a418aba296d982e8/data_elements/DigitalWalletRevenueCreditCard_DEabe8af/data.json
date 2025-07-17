@@ -1,0 +1,97 @@
+{
+  "id": "DEabe8af91f37244e9b2312fed02047348",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2020-09-25T15:10:58.895Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "DigitalWalletRevenueCreditCard",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2020-09-25T15:10:58.895Z",
+    "created_by_email": "Caleb.Simmons@amtrak.com",
+    "created_by_display_name": "Caleb Simmons",
+    "updated_by_email": "Caleb.Simmons@amtrak.com",
+    "updated_by_display_name": "Caleb Simmons",
+    "clean_text": false,
+    "default_value": null,
+    "delegate_descriptor_id": "core::dataElements::javascript-variable",
+    "force_lower_case": false,
+    "review_status": "unsubmitted",
+    "storage_duration": null,
+    "settings": "{\"path\":\"digitalData.eCommerce.RevenueCreditCard\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/origin"
+      },
+      "data": {
+        "id": "DEabe8af91f37244e9b2312fed02047348",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/extension"
+      },
+      "data": {
+        "id": "EX23ea53ccc34e4aa3b1cb9553bff71a3b",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP2c73f67d94bb4dfb8c54d3436dc19256",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348/updated_with_extension"
+      },
+      "data": {
+        "id": "EXf581e8aa9a67414ebc82a6b60a605f06",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348",
+    "self": "https://reactor.adobe.io/data_elements/DEabe8af91f37244e9b2312fed02047348",
+    "extension": "https://reactor.adobe.io/extensions/EX23ea53ccc34e4aa3b1cb9553bff71a3b"
+  },
+  "meta": {
+    "latest_revision_number": 1
+  }
+}

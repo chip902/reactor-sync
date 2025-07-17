@@ -1,0 +1,3 @@
+{
+  "source": "return _satellite.getVar(\"ageInfants\")+\":\"+_satellite.getVar(\"ageChildren\")+\":\"+_satellite.getVar(\"ageYouth\")+\":\"+_satellite.getVar(\"ageAdults\")+\":\"+_satellite.getVar(\"ageSeniors\");\n  "
+}

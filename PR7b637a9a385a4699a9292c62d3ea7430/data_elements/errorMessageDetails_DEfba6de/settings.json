@@ -1,0 +1,3 @@
+{
+  "source": "var errorMessageDetails = digitalData.ErrDetails.message +\"|\"+ digitalData.ErrDetails.status +\"|\"+ digitalData.ErrDetails.statusText +\"|\"+ digitalData.ErrDetails.url +\"|\"+ \"na\";\nreturn errorMessageDetails;"
+}

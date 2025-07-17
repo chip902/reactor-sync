@@ -31,4 +31,4 @@ package-lock.json
 .env
 
 # reactor-sync ignores
-.reactor-settings.json
+*.reactor-settings.json

@@ -1,0 +1,87 @@
+{
+  "id": "EXd606939b75214c20b50cc39fcbc5c6f5",
+  "type": "extensions",
+  "attributes": {
+    "created_at": "2020-09-01T20:34:52.549Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "common-analytics-plugins",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2023-06-23T20:25:22.144Z",
+    "created_by_email": "tien.le@amtrak.com",
+    "created_by_display_name": "Tien Hoang Anh Le",
+    "updated_by_email": "Chethan.Goud.Kari@amtrak.com",
+    "updated_by_display_name": "Chethan Goud Kari",
+    "delegate_descriptor_id": "common-analytics-plugins::extensionConfiguration::config",
+    "display_name": "Common Analytics Plugins",
+    "review_status": "unsubmitted",
+    "version": "3.0.7",
+    "settings": "{\"ns\":{\"id\":\"ns\",\"obj\":\"window\",\"desc\":\"The Numbers Suite is a series of plugins that allow for...\\u003col\\u003e\\u003cli\\u003ezeroPad - a number of zeroes to the beginning of a number\\u003c/li\\u003e\\u003cli\\u003erandomNumber - generate a random number with a specific number of digits\\u003c/li\\u003e\\u003cli\\u003etwoDecimals - round a number to the closest hundreth (for currency)\\u003c/li\\u003e\\u003c/ol\\u003e\\u003cp\\u003eThis plugin suite is depricated.\\u003c/p\\u003e\",\"name\":\"Numbers Suite\",\"display\":true,\"doclink\":\"//docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/numberssuite.html\",\"version\":\"1.0\",\"depricated\":true},\"pt\":{\"id\":\"pt\",\"obj\":\"tracker\",\"desc\":\"Executes a function on a list of Adobe Analytics variables. For example, the following function will run the clearVars function three times, once using eVar1 as the argument, once using eVar4 as the argument, and once using eVar29 as the argument. The end result clear out the values of eVar1, eVar4 \\u0026 eVar29. s.pt('eVar1,eVar4,eVar29', ',', 'clearVars');\",\"name\":\"pt\",\"display\":true,\"doclink\":\"//docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/pt-plugin.html\",\"version\":\"3.0\",\"depricated\":false},\"apl\":{\"id\":\"apl\",\"obj\":\"tracker\",\"desc\":\"Add new values to list-delimited variables (e.g. events, linkTrackVars, listVars, etc.). This plugin requires \\\"inList\\\" to be initialized as well.\",\"name\":\"Append To List\",\"display\":true,\"version\":\"4.0\",\"depricated\":false},\"rfl\":{\"id\":\"rfl\",\"obj\":\"tracker\",\"desc\":\"Remove values from list-delimited variables (e.g. s.events, s.linkTrackVars, listVars, etc.).\",\"name\":\"Remove From List\",\"display\":true,\"doclink\":\"//docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/removefromlist.html\",\"version\":\"2.1\",\"depricated\":false},\"p_fo\":{\"id\":\"fpo\",\"obj\":\"tracker\",\"desc\":\"Checks for the existence of a specific JavaScript object. If the object doesn't exist, the plugin creates the object and returns the value of true. This would be the first and only time the plugin would create this object on the current page (hence the name, pageFirstOnly). If the JavaScript object already exists on the page, the function will return the value of false.\",\"name\":\"First Page Only\",\"display\":true,\"doclink\":\"//docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/p-fo.html\",\"version\":\"3.0\",\"depricated\":false},\"inList\":{\"id\":\"il\",\"obj\":\"tracker\",\"desc\":\"Check whether a value already exists within either a delimited list of values or a JavaScript array object.\",\"name\":\"In List\",\"display\":true,\"version\":\"3.0\",\"depricated\":false},\"zeroPad\":{\"display\":false,\"version\":\"1.0\",\"depricated\":true},\"cleanStr\":{\"id\":\"cs\",\"obj\":\"window\",\"desc\":\"Remove unnecessary characters from a string (or string variable), including HTML tag characters, Extra whitespaces (including double spaces), Left/right single quotes (‘’) (replaced with straight single quotes), Tabs, Newlines/Carriage Returns. \",\"name\":\"Clean String\",\"display\":true,\"version\":\"2.0\",\"depricated\":false},\"formatTime\":{\"id\":\"ft\",\"obj\":\"tracker\",\"desc\":\"Take a specified number of seconds and present them in a bucketed format, rounded to a benchmark value that you specify. The \\\"inList\\\" plugin is required by this plugin. This plugin requires \\\"inList\\\" to be initialized as well.\",\"name\":\"Format Time\",\"display\":true,\"version\":\"2.0\",\"depricated\":false},\"getValOnce\":{\"id\":\"gvo\",\"obj\":\"tracker\",\"desc\":\"Prevents a variable from being set equal to the same value on consecutive calls.\",\"name\":\"Value Once\",\"display\":true,\"version\":\"3.0\",\"depricated\":false},\"manageVars\":{\"id\":\"mv\",\"obj\":\"tracker\",\"desc\":\"Manipulate the values of multiple Adobe Analytics variables at one time; this version includes specific functionality to lowercase or remove unnecessary characters from multiple variable values at the same time.\",\"name\":\"Manage Variables\",\"display\":true,\"version\":\"3.0\",\"depricated\":false},\"getPageName\":{\"id\":\"gpn\",\"obj\":\"window\",\"desc\":\"Creates a value that can be inserted into the Adobe Analytics pageName variable and that is an easy-to-read, \\\"friendly\\\"-formatted version of the current URL.\",\"name\":\"Page Name\",\"display\":true,\"version\":\"4.2\",\"depricated\":false,\"dataElement\":true},\"getVisitNum\":{\"id\":\"gvn\",\"obj\":\"tracker\",\"desc\":\"Visit number for all visitors that come to the site within a specific time period (e.g. \\\"x\\\" number of days).\",\"name\":\"Visit Number\",\"display\":true,\"version\":\"4.2\",\"depricated\":false,\"dataElement\":true},\"twoDecimals\":{\"display\":false,\"version\":\"1.0\",\"depricated\":true},\"getNewRepeat\":{\"id\":\"gnr\",\"obj\":\"tracker\",\"desc\":\"Determines whether a visitor to the site is a new visitor or a repeat visitor within the number of days that is specified in the plugin call.\",\"name\":\"New Repeat\",\"display\":true,\"version\":\"3.0\",\"depricated\":false,\"dataElement\":true},\"randomNumber\":{\"display\":false,\"version\":\"1.0\",\"depricated\":true},\"getQueryParam\":{\"id\":\"gqp\",\"obj\":\"tracker\",\"desc\":\"Case-insensitively extract the value of any query string parameter contained in a URL. This plugin requires \\\"pt\\\" to be initialized as well.\",\"name\":\"Query Parameter\",\"display\":true,\"version\":\"4.0.1\",\"depricated\":false},\"lowerCaseVars\":{\"display\":false,\"version\":\"1.0\",\"depricated\":false},\"addProductEvar\":{\"id\":\"apv\",\"obj\":\"tracker\",\"desc\":\"Easily add an Adobe Analytics merchandising eVar that uses product syntax to the products variable (s.products) without worrying whether the already-existing contents of the variable will be changed/moved/deleted.\",\"name\":\"Add Product eVar\",\"display\":true,\"version\":\"2.0\",\"depricated\":false},\"getTimeParting\":{\"id\":\"gtp\",\"obj\":\"window\",\"desc\":\"Capture the details of the time when any measurable activity takes place on its site.\",\"name\":\"Time Parting\",\"display\":true,\"version\":\"6.3\",\"depricated\":false,\"dataElement\":true},\"addProductEvent\":{\"id\":\"ape\",\"obj\":\"tracker\",\"desc\":\"Easily add an Adobe Analytics custom numeric event or custom currency event to the products variable (s.products) without worrying whether the already-existing contents of the variable will be changed/moved/deleted.\",\"name\":\"Add Product Event\",\"display\":true,\"version\":\"2.0\",\"depricated\":false},\"endOfDatePeriod\":{\"id\":\"eodp\",\"display\":false,\"version\":\"1.2\",\"depricated\":false},\"getPageLoadTime\":{\"id\":\"gplt\",\"obj\":\"tracker\",\"desc\":\"Uses the JavaScript performance object to allow you to measure the amount of time a page takes to load completely. This plugin requires \\\"p_fo\\\" to be initialized as well.\",\"name\":\"Page Load Time\",\"display\":true,\"version\":\"2.0\",\"depricated\":false},\"handlePPVevents\":{\"display\":false,\"version\":\"4.0\",\"depricated\":false},\"getPreviousValue\":{\"id\":\"gpv\",\"obj\":\"tracker\",\"desc\":\"Set an Analytics variable equal to the value of a variable that was set on a previous page or contained in a previous image request. This plugin requires \\\"p_fo\\\" to be initialized as well.\",\"name\":\"Previous Value\",\"display\":true,\"version\":\"3.0\",\"depricated\":false},\"getVisitDuration\":{\"id\":\"gvd\",\"obj\":\"tracker\",\"desc\":\"Amount of time (in minutes) that the visitor has been on the site up to that point.\",\"name\":\"Visit Duration\",\"display\":true,\"version\":\"2.1\",\"depricated\":false,\"dataElement\":true},\"performanceCheck\":{\"display\":false,\"version\":\"1.0\",\"depricated\":false},\"getGeoCoordinates\":{\"id\":\"ggc\",\"obj\":\"tracker\",\"desc\":\"Returns the geographic location (latitude and longitude) of the visitors device.\",\"name\":\"Geographic Coordinates\",\"display\":true,\"version\":\"2.0\",\"depricated\":false,\"dataElement\":true},\"getTimeToComplete\":{\"id\":\"gttc\",\"obj\":\"tracker\",\"desc\":\"Time a user takes to complete a process on a site. The \\\"clock\\\" begins when the \\\"start\\\" action is called and ends when the \\\"stop\\\" action is called. This plugin requires \\\"pt\\\" to be initialized as well.\",\"name\":\"Time To Complete\",\"display\":true,\"version\":\"4.0\",\"depricated\":false},\"getAndPersistValue\":{\"id\":\"gapv\",\"obj\":\"tracker\",\"desc\":\"Stores a value in a cookie that can be retrieved later during a visit.\",\"name\":\"Persist Value\",\"display\":true,\"version\":\"3.0\",\"depricated\":false},\"getResponsiveLayout\":{\"id\":\"grl\",\"obj\":\"window\",\"desc\":\"Which version of your responsive design-based website a visitor is currently looking at.\",\"name\":\"Responsive Layout\",\"display\":true,\"version\":\"1.1\",\"depricated\":false,\"dataElement\":true},\"getPercentPageViewed\":{\"id\":\"gppv\",\"obj\":\"tracker\",\"desc\":\"Measures a visitor's scroll activity to see how much of the page they viewed before moving to another page.\",\"name\":\"Percent Page Viewed\",\"display\":true,\"version\":\"5.0\",\"depricated\":false},\"getTimeBetweenEvents\":{\"id\":\"gtbe\",\"obj\":\"tracker\",\"desc\":\"Amount of time between two different Adobe Analytics events (custom or otherwise). This plugin requires \\\"inList\\\" to be initialized as well.\",\"name\":\"Time Between Events\",\"display\":true,\"version\":\"3.0\",\"depricated\":false},\"performanceWriteFull\":{\"display\":false,\"version\":\"1.0\",\"depricated\":false},\"performanceWritePart\":{\"display\":false,\"version\":\"1.0\",\"depricated\":false},\"getDaysSinceLastVisit\":{\"id\":\"gdslv\",\"obj\":\"tracker\",\"desc\":\"Returns the number of days since the visitor's last (most recent) visit. This plugin is deprecated. Adobe recommends using the getTimeSinceLastVisit plugin instead.\",\"name\":\"Days Since Last Visit\",\"display\":true,\"doclink\":\"//docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/gettimesincelastvisit.html\",\"version\":\"3.0\",\"depricated\":true},\"getTimeSinceLastVisit\":{\"id\":\"gtslv\",\"obj\":\"tracker\",\"desc\":\"Returns the time since the visitor's last (most recent) visit.\",\"name\":\"Time Since Last Visit\",\"display\":true,\"version\":\"2.0\",\"depricated\":false}}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5/origin"
+      },
+      "data": {
+        "id": "EXd606939b75214c20b50cc39fcbc5c6f5",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP88bc9a95368c457498f7139d263446ba",
+        "type": "extension_packages"
+      }
+    },
+    "extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5/extension_package"
+      },
+      "data": {
+        "id": "EP88bc9a95368c457498f7139d263446ba",
+        "type": "extension_packages"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5",
+    "self": "https://reactor.adobe.io/extensions/EXd606939b75214c20b50cc39fcbc5c6f5",
+    "extension_package": "https://reactor.adobe.io/extension_packages/EP88bc9a95368c457498f7139d263446ba",
+    "latest_extension_package": "https://reactor.adobe.io/extension_packages/EP88bc9a95368c457498f7139d263446ba"
+  },
+  "meta": {
+    "latest_revision_number": 3
+  }
+}

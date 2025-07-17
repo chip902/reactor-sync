@@ -1,0 +1,97 @@
+{
+  "id": "DE258c23b9e82b40d6994f793db4adc654",
+  "type": "data_elements",
+  "attributes": {
+    "created_at": "2019-05-12T15:55:54.587Z",
+    "deleted_at": null,
+    "dirty": false,
+    "enabled": true,
+    "name": "agrMember",
+    "published": true,
+    "published_at": null,
+    "revision_number": 0,
+    "updated_at": "2019-05-12T15:55:54.587Z",
+    "created_by_email": "N/A",
+    "created_by_display_name": "N/A",
+    "updated_by_email": "N/A",
+    "updated_by_display_name": "N/A",
+    "clean_text": false,
+    "default_value": "",
+    "delegate_descriptor_id": "core::dataElements::custom-code",
+    "force_lower_case": false,
+    "review_status": "unsubmitted",
+    "storage_duration": "pageview",
+    "settings": "{\"source\":\"if (_satellite.readCookie('LoginCookie'))\\n  return true;\\nelse\\n  return undefined;\"}"
+  },
+  "relationships": {
+    "libraries": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/libraries"
+      }
+    },
+    "revisions": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/revisions"
+      }
+    },
+    "notes": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/notes"
+      }
+    },
+    "property": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/property"
+      },
+      "data": {
+        "id": "PR7570a38a774a4a89a418aba296d982e8",
+        "type": "properties"
+      }
+    },
+    "origin": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/origin"
+      },
+      "data": {
+        "id": "DE258c23b9e82b40d6994f793db4adc654",
+        "type": "data_elements"
+      }
+    },
+    "extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/extension"
+      },
+      "data": {
+        "id": "EX23ea53ccc34e4aa3b1cb9553bff71a3b",
+        "type": "extensions"
+      }
+    },
+    "updated_with_extension_package": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/updated_with_extension_package"
+      },
+      "data": {
+        "id": "EP56a4071b8bdf4810b1e8c195ebd0fe85",
+        "type": "extension_packages"
+      }
+    },
+    "updated_with_extension": {
+      "links": {
+        "related": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654/updated_with_extension"
+      },
+      "data": {
+        "id": "EXf9f95ec001294ecfb236c9bdccd7537a",
+        "type": "extensions"
+      }
+    }
+  },
+  "links": {
+    "property": "https://reactor.adobe.io/properties/PR7570a38a774a4a89a418aba296d982e8",
+    "origin": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654",
+    "self": "https://reactor.adobe.io/data_elements/DE258c23b9e82b40d6994f793db4adc654",
+    "extension": "https://reactor.adobe.io/extensions/EX23ea53ccc34e4aa3b1cb9553bff71a3b"
+  },
+  "meta": {
+    "latest_revision_number": 1
+  }
+}

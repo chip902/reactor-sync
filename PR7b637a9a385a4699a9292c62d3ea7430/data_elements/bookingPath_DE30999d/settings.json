@@ -1,0 +1,3 @@
+{
+  "source": "var a = digitalData.Booking.bookingPath;\nvar b = digitalData.Booking.dvp;\nvar c= a + \"|\" + b;\nreturn c;"
+}

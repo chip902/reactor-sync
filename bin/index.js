@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable indent */
 
 /*
 Copyright 2019 Adobe. All rights reserved.
@@ -18,22 +19,17 @@ const diff = require('./diff');
 const sync = require('./sync');
 const pull = require('./pull');
 
-yargs
-.usage('Usage: $0 <command> [options]')
-// sync (default)
-.command(['sync', '$0'], 'Run a diff on the local file system and Adobe Launch and then sync.', async (argv) => {
-  const args = argv.argv;
-  await sync(args);
-})
-// pull (default)
-.command(['pull', '$0'], 'Pull down all resources and write them as JSON locally.', async (argv) => {
-  const args = argv.argv;
-  await pull(args);
-})
-// diff
-.command('diff', 'Diff what exists on the local file system with what exists in Adobe Launch.', async (argv) => {
-  const args = argv.argv;
-  const result = await diff(args);
+// Define the command handlers separately to avoid circular references
+const syncHandler = async (argv) => {
+  await sync(argv);
+};
+
+const pullHandler = async (argv) => {
+  await pull(argv);
+};
+
+const diffHandler = async (argv) => {
+  const result = await diff(argv);
 
   console.log(chalk.green.bold(`Added (${result.added.length}) ------------------------------------------------------------`));
   result.added.forEach((comparison) => {
@@ -56,10 +52,7 @@ yargs
   console.log(chalk.blue.bold(`Behind (${result.behind.length}) -----------------------------------------------------------`));
   result.behind.forEach((comparison) => {
     console.log(`  ${comparison.path} (${comparison.id})`);
-    if (
-      comparison.details &&
-      comparison.details.attributes
-    ) {
+    if (comparison.details && comparison.details.attributes) {
       Object.keys(comparison.details.attributes).forEach((attribute) => {
         console.log(`    - attributes.${attribute}: ${chalk.greenBright(comparison.details.attributes[attribute].local)} => ${chalk.redBright(comparison.details.attributes[attribute].remote)}`);
       });
@@ -67,32 +60,35 @@ yargs
   });
 
   console.log(chalk.blue.bold(`Unchanged (${result.unchanged.length}) --------------------------------------------------------`));
-  // result.unchanged.forEach((comparison) => {
-  //   console.log(`  ${comparison.path} (${comparison.id})`);
-  // });
+};
 
-})
-// options
-.options({
-  settings: {
-    type: 'string',
-    describe: 'The location of the settings file.'
-  }
-})
-.options({
-  modified: {
-    type: 'boolean',
-    describe: '(sync command only) Sync only "modified" changes up to Launch.'
-  }
-})
-.options({
-  behind: {
-    type: 'boolean',
-    describe: '(sync command only) Sync only "behind" changes down from Launch.'
-  }
-})
-// TODO: finish this when ready and public
-// .epilogue('For more information, see https://www.npmjs.com/package/@adobe/reactor-sync.')
-.help('h')
-.alias('h', 'help')
-.argv;
+// Configure yargs with the command handlers
+yargs
+  .usage('Usage: $0 <command> [options]')
+  .command('sync', 'Run a diff on the local file system and Adobe Launch and then sync.', {}, syncHandler)
+  .command(['pull', '$0'], 'Pull down all resources and write them as JSON locally.', {}, pullHandler)
+  .command('diff', 'Diff what exists on the local file system with what exists in Adobe Launch.', {}, diffHandler)
+  // options
+  .options({
+    settings: {
+      type: 'string',
+      describe: 'The location of the settings file.'
+    },
+    modified: {
+      type: 'boolean',
+      describe: '(sync command only) Sync only "modified" changes up to Launch.'
+    },
+    behind: {
+      type: 'boolean',
+      describe: '(sync command only) Sync only "behind" changes down from Launch.'
+    },
+    friendlyNames: {
+      type: 'boolean',
+      describe: 'Use business-friendly names for directories instead of just IDs.'
+    }
+  })
+  // TODO: finish this when ready and public
+  // .epilogue('For more information, see https://www.npmjs.com/package/@adobe/reactor-sync.')
+  .help('h')
+  .alias('h', 'help')
+  .argv;

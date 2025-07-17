@@ -1,0 +1,3 @@
+{
+  "source": "return digitalData.Booking.departureDate + \"|\" + digitalData.Booking.departureTime + \"|\" + digitalData.Booking.AdjustedTime;"
+}
